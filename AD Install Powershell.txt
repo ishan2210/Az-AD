@@ -1,0 +1,9 @@
+Installing ADDS roles through Powershell
+Install-WindowsFeature -name AD-Domain-Services -IncludeManagementTools
+Install-ADDSForest -DomainName abc.local -DomainNetBIOSName AD -InstallDNS
+--------------------------------------------------------------------------------
+Domain Join a PC Through Powershell
+add-computer –domainname ad.contoso.com -Credential AD\adminuser -restart –force 
+-----------------------------------------------------------------------------------
+
+

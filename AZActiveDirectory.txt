@@ -1,0 +1,24 @@
+Hard Match
+Soft Macth
+Password Writeback
+Group Writeback 
+Device Writeback 
+User Writeback
+Password Writeback 
+SSPR Self service Password Reset
+Pass Through authentication 
+Password Hash Synchronization
+Single Sign On
+Hybrid Azure AD Connect
+Password Protection
+Passwordless Authentication
+Azure AD Connect 
+Conditional Access Policy
+
+
+
+
+
+
+
+
