@@ -1,0 +1,10 @@
+Import-Module ADSync
+Get-ADSyncScheduler
+Start-ADSyncSyncCycle -PolicyType Delta
+------------------------------------------------------------
+# Disable the synchronization schedule
+Set-ADSyncScheduler -SyncCycleEnabled $true
+------------------------------------------------------------
+
+https://activedirectorypro.com/disable-azure-ad-connect-synchronization/
+
